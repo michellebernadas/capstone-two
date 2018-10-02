@@ -1,0 +1,1 @@
+<?php 	session_start();	if (isset($_GET['id'])) {		$id = $_GET['id'];	}	    $action= $_GET['action'];        if($action=='removeall') {		unset($_SESSION['cart']);	}	if($action=='removeone') {			unset($_SESSION['cart'][$id]); 	} 	if (isset($_SESSION['cart'])) {			$_SESSION['num']= count($_SESSION['cart']);	}	header('location: ../products.php');?>

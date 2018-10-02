@@ -1,0 +1,1 @@
+<?php 	session_start();	    if (isset($_GET['id'])) {		$id = $_GET['id'];	}	$action= $_GET['action'];	if($action=='removeone') {		if(isset($_SESSION['cart'][$id])) {			 unset($_SESSION['cart'][$id]); 	} else {			$_SESSION['cart'][$id];	}	}	if($action=='removeall') {		unset($_SESSION['cart']);	}	header('location: ../cart.php');?>

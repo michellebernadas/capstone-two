@@ -1,0 +1,1 @@
+<?php	session_start();	$id = $_POST['id'];	$price= $_POST['price'];	$_SESSION['cart'][$id] = 1; 	$_SESSION['num']=(count($_SESSION['cart']));?>

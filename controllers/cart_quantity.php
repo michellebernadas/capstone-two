@@ -1,0 +1,1 @@
+<?php  	session_start();	$id = $_POST['id'];	$value = $_POST['value'];	// echo $id;	$_SESSION['cart'][$id] = $value;	// print_r($_SESSION['quantity'])?>

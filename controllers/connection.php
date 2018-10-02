@@ -1,0 +1,1 @@
+<?php 		$host="localhost";		$username="id7325134_cart";		$password="cart2";		$db="id7325134_cart";		$conn= mysqli_connect($host, $username, $password, $db);		// if (!$conn) {		// 	die("Connection failed: " .mysqli_error($conn));		// }		// echo "Connected successfully";?>

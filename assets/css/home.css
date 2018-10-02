@@ -1,0 +1,59 @@
+.col-6.blank .orange {
+    background-color: #ea7c54;
+}
+.col-6.blank .orangered {
+    background-color: #f36e64;
+}
+img.pic1 {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+button.btn.flavor {
+    color: #fff;
+    background-color:#f44336;
+    /*border-color: #000000;*/
+}
+button.btn.flavor {
+    background-color:#f44336;
+    /*border-color: #000000;*/
+}
+button.btn.flavor:hover {
+    color: #fff;
+    background-color: #c94204;
+    border-color: #285e8e; 
+    -webkit-transform: scale(1.1);
+    background: #e82b0f;
+}
+button.btn.about:hover {
+    -webkit-transform: scale(1.1);
+    background: #bf4a41;
+}
+.orange {
+    text-align: center;
+    text-align: center;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15%;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+ }
+ .orangered {
+    text-align: center;
+    text-align: center;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding:15%;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+ }
